@@ -537,7 +537,7 @@
             <dependency>
                 <groupId>org.wso2.carbon.identity</groupId>
                 <artifactId>org.wso2.carbon.identity.core</artifactId>
-                <version>${carbon.identity.version}</version>
+                <version>${identity.framework.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.wso2.carbon</groupId>
@@ -725,7 +725,7 @@
             <dependency>
                 <groupId>org.wso2.carbon.identity</groupId>
                 <artifactId>org.wso2.carbon.identity.entitlement.stub</artifactId>
-                <version>${carbon.identity.version}</version>
+                <version>${identity.framework.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.wso2.securevault</groupId>
@@ -772,7 +772,7 @@
             <dependency>
                 <groupId>org.wso2.carbon.identity</groupId>
                 <artifactId>org.wso2.carbon.user.mgt.stub</artifactId>
-                <version>${carbon.identity.version}</version>
+                <version>${identity.framework.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.wso2.carbon.identity</groupId>
@@ -804,13 +804,13 @@
             <dependency>
                 <groupId>org.wso2.carbon.identity</groupId>
                 <artifactId>org.wso2.carbon.identity.application.mgt.stub</artifactId>
-                <version>${carbon.identity.version}</version>
+                <version>${identity.framework.version}</version>
                 <scope>compile</scope>
             </dependency>
             <dependency>
                 <groupId>org.wso2.carbon.identity</groupId>
                 <artifactId>org.wso2.carbon.idp.mgt.stub</artifactId>
-                <version>${carbon.identity.version}</version>
+                <version>${identity.framework.version}</version>
                 <scope>compile</scope>
             </dependency>
             <dependency>
@@ -834,7 +834,7 @@
             <dependency>
                 <groupId>org.wso2.carbon.identity</groupId>
                 <artifactId>org.wso2.carbon.identity.user.store.configuration.stub</artifactId>
-                <version>${carbon.identity.version}</version>
+                <version>${identity.framework.version}</version>
                 <scope>compile</scope>
             </dependency>
             <dependency>
@@ -846,7 +846,7 @@
             <dependency>
                 <groupId>org.wso2.carbon.identity</groupId>
                 <artifactId>org.wso2.carbon.identity.mgt.stub</artifactId>
-                <version>${carbon.identity.version}</version>
+                <version>${identity.framework.version}</version>
                 <scope>compile</scope>
             </dependency>
             <dependency>
@@ -858,7 +858,7 @@
             <dependency>
                 <groupId>org.wso2.carbon.identity</groupId>
                 <artifactId>org.wso2.carbon.claim.mgt.stub</artifactId>
-                <version>${carbon.identity.version}</version>
+                <version>${identity.framework.version}</version>
                 <scope>compile</scope>
             </dependency>
             <dependency>
@@ -974,7 +974,7 @@
             <dependency>
                 <groupId>org.wso2.carbon.identity</groupId>
                 <artifactId>org.wso2.carbon.identity.user.registration.stub</artifactId>
-                <version>${carbon.identity.version}</version>
+                <version>${identity.framework.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.wso2.carbon.identity</groupId>
@@ -984,12 +984,12 @@
             <dependency>
                 <groupId>org.wso2.carbon.identity</groupId>
                 <artifactId>org.wso2.carbon.identity.workflow.mgt.stub</artifactId>
-                <version>${carbon.identity.version}</version>
+                <version>${identity.framework.version}</version>
             </dependency>
 	    <dependency>
                 <groupId>org.wso2.carbon.identity</groupId>
                 <artifactId>org.wso2.carbon.identity.workflow.impl.stub</artifactId>
-                <version>${carbon.identity.version}</version>
+                <version>${identity.framework.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.jacoco</groupId>
@@ -1051,7 +1051,7 @@
             <dependency>
                 <groupId>org.wso2.carbon.identity</groupId>
                 <artifactId>org.wso2.carbon.identity.application.mgt</artifactId>
-                <version>${carbon.identity.version}</version>
+                <version>${identity.framework.version}</version>
             </dependency>
             <dependency>
                 <groupId>xerces</groupId>
@@ -1061,7 +1061,7 @@
             <dependency>
                 <groupId>org.wso2.carbon.identity</groupId>
                 <artifactId>org.wso2.carbon.identity.workflow.mgt</artifactId>
-                <version>${carbon.identity.version}</version>
+                <version>${identity.framework.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -1126,6 +1126,7 @@
     </profiles>
 
     <properties>
+        <identity.framework.version>5.0.9-SNAPSHOT</identity.framework.version>
         <carbon.identity.version>5.0.9-SNAPSHOT</carbon.identity.version>
         <carbon.identity.jar.version>5.0.9-SNAPSHOT</carbon.identity.jar.version>
         <product.identity.version>5.2.0-SNAPSHOT</product.identity.version>
